@@ -2,7 +2,7 @@
 
 export default function RegisterForm() {
     return (
-        <form>
+        <form className="space-y-5">
             <Input label="Full Name" placeholder="Enter your name" />
             <Input label="Email" placeholder="Enter your email" />
             <Input label="Register Number" placeholder="Anna Univ Reg No" />
