@@ -1,0 +1,10 @@
+import AuthLayout from "@/components/auth/AuthLayout";
+import {LoginForm} from "@/components/auth/LoginPage";
+
+export default function LoginPage() {
+    return (
+        <AuthLayout title="Welcome Back" subtitle="Sign in to continue your exam preparation">
+            <LoginForm />
+        </AuthLayout>
+    )
+}

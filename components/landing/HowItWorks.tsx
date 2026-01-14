@@ -12,6 +12,7 @@ export function HowItWorks() {
         </section>
     );
 }
+
 function Step({ title }: { title: string }) {
     return (
         <div className="p-6 rounded-xl border border-gray-200">
