@@ -3,6 +3,7 @@ import HeroSection from "@/components/landing/HeroSection";
 import {ValueStrip} from "@/components/landing/ValueStrip";
 import {FeaturesSection} from "@/components/landing/FeaturesSection";
 import {HowItWorks} from "@/components/landing/HowItWorks";
+import {FinalCTA} from "@/components/landing/FinalCTA";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <ValueStrip />
             <FeaturesSection />
             <HowItWorks />
+            <FinalCTA />
         </>
     );
 }
