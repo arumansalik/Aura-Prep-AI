@@ -37,7 +37,7 @@ export function FeaturesSection() {
                     </div>
 
                     <div className="text-sm text-gray-500">
-                        ✔ Word-limit aware &nbsp;•&nbsp; ✔ Valuation format
+                        ✔ Word-limit aware &nbsp;&nbsp; ✔ Valuation format
                     </div>
                 </div>
 
